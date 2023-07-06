@@ -1,6 +1,6 @@
 [//]: # (## Стажировка)
 
-### Автоматизированное тестирование [страниц](https://github.com/k0xzy/diplomFinal/blob/master/docs/Plan.md&#41) megalife.by
+### Автоматизированное тестирование [страниц](https://github.com/k0xzy/megalifeProject/blob/master/Docs/Info.md) megalife.by
 
 #### Инструкции по установке
 1. Скачайте архив;
