@@ -153,8 +153,8 @@ public class TransitionsFooterTest {
     public void footerDelivery() {
         var mentalka = new pages.b_ChtenieNull.Footer();
         mentalka.footerDelivery();
-        String pageTitle = Selenide.title();
-        assertEquals("Правила оплаты и безопасность платежей, конфиденциальность информации", pageTitle);
+        String currentUrl = WebDriverRunner.url();
+        assertEquals("https://megalife.by/pravilaoplaty", currentUrl);
     }
 
     @Test
@@ -163,7 +163,7 @@ public class TransitionsFooterTest {
         var mentalka = new pages.b_ChtenieNull.Footer();
         mentalka.footerFacebook();
         String currentUrl = WebDriverRunner.url();
-        assertEquals("https://megalife.by/pravilaoplaty", currentUrl);
+        assertEquals("https://www.facebook.com/megalife.by", currentUrl);
     }
 
     @Test
